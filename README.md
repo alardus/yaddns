@@ -39,7 +39,7 @@ SUBDOMAIN = 'subdomain'
 `crontab -e`
 `*/30 * * * * /path/to/yaddns.py`
 
-Или запустите его из Docker
+Или запустите его из Docker:
 
 ```
 docker build -t alardus/yaddns .
