@@ -34,6 +34,10 @@ DOMAIN = 'host.com'
 SUBDOMAIN = 'subdomain'
 ```
 
+- Установите необходимые модули (если планируете запускать скрипт не из Docker):
+
+`pip install -r req.txt`
+
 - Добавьте скрипт `yaddns.py` в CRON:
 
 `crontab -e`
