@@ -9,11 +9,9 @@
 
 - Получите ключ для управления доменом. Для этого откройте:
 
-`https://pddimp.yandex.ru/get_token.xml?domain_name=subdomain.host.com`
+`https://pddimp.yandex.ru/api2/admin/get_token`
 
-авторизуйтесь и в исходнике страницы (`хинт! web developer`) найдите поле:
-
-`token="XXXXXX"`
+авторизуйтесь, укажите имя домена и получите токен.
 
 Копируйте его в поле `TOKEN` в файле `.env`.
 
