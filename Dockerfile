@@ -9,4 +9,4 @@ RUN pip install -r req.txt
 ADD *.py /code/
 ADD .env /code/
 
-CMD ["python", "./ddns.py"]
+CMD ["python", "./ddns.py --auto"]
